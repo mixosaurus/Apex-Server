@@ -1,0 +1,13 @@
+UserName: root
+DBServer: 127.0.0.1:3306
+PWD:      abcdefg
+DBName:   apex_db
+
+#userName: "xiaoming"
+#address: "广州市XXX"
+#sex: 1
+#company:
+#  name: "xxx"
+#  employeeId: 1000
+#  department:
+#    - "技术部"

@@ -2,6 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3db140da-9218-4372-9097-8d5eed6a3069" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AesHelper/aeshelper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/userController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBHelper/dbConnection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAccess/userProvider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataEntity/tbl_posts.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataEntity/tbl_user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataEntity/userPosts.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Handler/userHandler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/userModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
@@ -10,10 +26,48 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - apex_db@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - apex_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - apex_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="apex_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - apex_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="apex_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tbl_users: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -29,23 +83,30 @@
     </option>
   </component>
   <component name="ProjectId" id="1Z9pJfvpeNtnAj1dAupatfEHhUN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../awesomeProject" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build com.vic">
     <configuration name="go build Apex-Server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Apex-Server" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -54,8 +115,18 @@
       <package value="Apex-Server" />
       <method v="2" />
     </configuration>
+    <configuration name="go build com.vic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Apex-Server" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="com.vic" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build com.vic" />
         <item itemvalue="Go Build.go build Apex-Server" />
       </list>
     </recent_temporary>
@@ -65,7 +136,22 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - apex_db@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - apex_db@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@2414bc40" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - apex_db@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3891d059" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -75,7 +161,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/ApexServerRepository" />
     </ignored-roots>
@@ -83,34 +181,69 @@
     <option name="LAST_COMMIT_MESSAGE" value="sample push" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="10" key="CommitChangelistDialog2" timestamp="1584270310136">
+    <state x="464" y="110" key="#Go_Modules_(vgo)" timestamp="1584273018461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="385" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584270310136" />
+    <state x="464" y="110" key="#Go_Modules_(vgo)/0.0.1536.824@0.0.1536.824" timestamp="1584273018461" />
+    <state x="361" y="92" key="#HTTP_Proxy" timestamp="1584715995960">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="92" key="#HTTP_Proxy/0.0.1536.824@0.0.1536.824" timestamp="1584715995960" />
+    <state x="722" y="77" key="#Inspections" timestamp="1584540263116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="77" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1584540263116" />
+    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584761518301">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584761518301" />
+    <state x="385" y="10" key="CommitChangelistDialog2" timestamp="1584793472691">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="385" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584793472691" />
+    <state x="933" y="174" key="FileChooserDialogImpl" timestamp="1584357122980">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="933" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584357122980" />
     <state x="631" y="308" width="273" height="280" key="Github.ShareDialog" timestamp="1584262071335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="631" y="308" width="273" height="280" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1584262071335" />
-    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1584269792409">
+    <state width="1493" height="139" key="GridCell.Tab.0.bottom" timestamp="1584793492820">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584269792409" />
-    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1584269792409">
+    <state width="1493" height="139" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584793492820" />
+    <state width="1493" height="139" key="GridCell.Tab.0.center" timestamp="1584793492820">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584269792409" />
-    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1584269792409">
+    <state width="1493" height="139" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584793492820" />
+    <state width="1493" height="139" key="GridCell.Tab.0.left" timestamp="1584793492820">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584269792409" />
-    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1584269792409">
+    <state width="1493" height="139" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584793492820" />
+    <state width="1493" height="139" key="GridCell.Tab.0.right" timestamp="1584793492820">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584269792409" />
-    <state x="272" y="58" key="SettingsEditor" timestamp="1584269909100">
+    <state width="1493" height="139" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584793492820" />
+    <state x="272" y="58" key="SettingsEditor" timestamp="1584364805370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584269909100" />
+    <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584364805370" />
+    <state x="656" y="305" width="333" height="226" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1584776778589">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="656" y="305" width="333" height="226" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824@0.0.1536.824" timestamp="1584776778589" />
+    <state x="553" y="243" width="429" height="330" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1584776966885">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="553" y="243" width="429" height="330" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1536.824@0.0.1536.824" timestamp="1584776966885" />
+    <state x="419" y="31" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584774379554">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="419" y="31" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1584774379554" />
   </component>
 </project>
